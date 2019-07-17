@@ -2,12 +2,12 @@ using System;
 
 namespace DesignPattern.Command
 {
-    public class TestClient : ITest
+    public class Client : ITest
     {
         public void Run()
         {
             Console.WriteLine("\n");
-            Console.WriteLine("[ Run Command pattern TestClient ]");
+            Console.WriteLine("[ Run Command Pattern Test Client ]");
 
             var lampOnCommand = new LampOnCommand(new Lamp());
             var alarmStartCommand = new AlarmStartCommand(new Alarm());

@@ -2,12 +2,12 @@ using System;
 
 namespace DesignPattern.Strategy
 {
-    public class TestClient : ITest
+    public class Client : ITest
     {
         public void Run()
         {
             Console.WriteLine("\n");
-            Console.WriteLine("[ Run Strategy pattern TestClient ]");
+            Console.WriteLine("[ Run Strategy Pattern Test Client ]");
 
             var taekwonV = new TaekwonV("TaekwonV");
             var atom = new Atom("Atom");

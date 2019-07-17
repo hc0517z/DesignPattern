@@ -42,12 +42,25 @@
     <Compile Include="Command\Button.cs" />
     <Compile Include="Command\ICommand.cs" />
     <Compile Include="Command\Lamp.cs" />
-    <Compile Include="Command\TestClient.cs" />
+    <Compile Include="Command\Client.cs" />
+    <Compile Include="Decorator\Client.cs" />
+    <Compile Include="Decorator\CrossingDecorator.cs" />
+    <Compile Include="Decorator\Display.cs" />
+    <Compile Include="Decorator\DisplayDecorator.cs" />
+    <Compile Include="Decorator\LaneDecorator.cs" />
+    <Compile Include="Decorator\RoadDisplay.cs" />
+    <Compile Include="Decorator\TrafficDecorator.cs" />
     <Compile Include="ITest.cs" />
+    <Compile Include="Observer\Client.cs" />
+    <Compile Include="Observer\DataSheetView.cs" />
+    <Compile Include="Observer\IObserver.cs" />
+    <Compile Include="Observer\MinMaxView.cs" />
+    <Compile Include="Observer\ScoreRecord.cs" />
+    <Compile Include="Observer\Subject.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Strategy\AttackStrategy.cs" />
-    <Compile Include="Strategy\TestClient.cs" />
+    <Compile Include="Strategy\Client.cs" />
     <Compile Include="Strategy\MovingStrategy.cs" />
     <Compile Include="Strategy\Robot.cs" />
   </ItemGroup>

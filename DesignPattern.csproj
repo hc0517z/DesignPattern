@@ -38,6 +38,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Command\Alarm.cs" />
+    <Compile Include="Command\Button.cs" />
+    <Compile Include="Command\ICommand.cs" />
+    <Compile Include="Command\Lamp.cs" />
+    <Compile Include="Command\TestClient.cs" />
+    <Compile Include="ITest.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Strategy\AttackStrategy.cs" />
     <Compile Include="Strategy\TestClient.cs" />

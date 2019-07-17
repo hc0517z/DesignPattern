@@ -9,10 +9,10 @@ namespace DesignPattern.Command
             Console.WriteLine("Lamp On");
         }
     }
-    
+
     public class LampOnCommand : ICommand
     {
-        private Lamp lamp;
+        private readonly Lamp lamp;
 
         public LampOnCommand(Lamp lamp)
         {

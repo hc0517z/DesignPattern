@@ -11,7 +11,7 @@ namespace DesignPattern.Command
 
         public void SetCommand(ICommand newCommand)
         {
-            this.command = newCommand;
+            command = newCommand;
         }
 
         public void Pressed()

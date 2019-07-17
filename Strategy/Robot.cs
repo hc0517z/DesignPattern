@@ -2,9 +2,9 @@ namespace DesignPattern.Strategy
 {
     public abstract class Robot
     {
+        private readonly string name;
         private IAttackStrategy attackStrategy;
         private IMovingStrategy movingStrategy;
-        private readonly string name;
 
         protected Robot(string name)
         {
@@ -36,14 +36,14 @@ namespace DesignPattern.Strategy
             this.movingStrategy = movingStrategy;
         }
     }
-    
+
     public class TaekwonV : Robot
     {
         public TaekwonV(string name) : base(name)
         {
         }
     }
-    
+
     public class Atom : Robot
     {
         public Atom(string name) : base(name)

@@ -11,10 +11,10 @@ namespace DesignPattern.Strategy
 
             var taekwonV = new TaekwonV("TaekwonV");
             var atom = new Atom("Atom");
-            
+
             taekwonV.SetMovingStrategy(new WalkingStrategy());
             taekwonV.SetAttackStrategy(new MissileStrategy());
-            
+
             atom.SetMovingStrategy(new FlyingStrategy());
             atom.SetAttackStrategy(new PunchStrategy());
 

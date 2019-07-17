@@ -14,7 +14,7 @@ namespace DesignPattern.Strategy
             Console.WriteLine("I have Missile.");
         }
     }
-    
+
     public class PunchStrategy : IAttackStrategy
     {
         public void Attack()

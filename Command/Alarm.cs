@@ -9,10 +9,10 @@ namespace DesignPattern.Command
             Console.WriteLine("Alarming");
         }
     }
-    
+
     public class AlarmStartCommand : ICommand
     {
-        private Alarm alarm;
+        private readonly Alarm alarm;
 
         public AlarmStartCommand(Alarm alarm)
         {

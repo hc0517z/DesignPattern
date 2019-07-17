@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using DesignPattern.Strategy;
 
 namespace DesignPattern
 {
@@ -8,8 +9,8 @@ namespace DesignPattern
         {
             var tests = new List<ITest>
             {
-                new Strategy.TestClient(), 
-                new Command.TestClient(),
+                new TestClient(),
+                new Command.TestClient()
             };
 
             tests.ForEach(test => test.Run());

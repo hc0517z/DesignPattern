@@ -14,7 +14,7 @@ namespace DesignPattern.Strategy
             Console.WriteLine("I can fly.");
         }
     }
-    
+
     public class WalkingStrategy : IMovingStrategy
     {
         public void Move()

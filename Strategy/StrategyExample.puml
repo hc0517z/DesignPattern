@@ -1,0 +1,74 @@
+@startuml
+
+title Strategy Pattern
+
+interface IMovingStrategy
+{
+    + {abstract} void Move();
+}
+
+class WalkingStrategy
+{
+    + void Move();
+}
+
+class FlyingStrategy
+{
+    + void Move();
+}
+
+IMovingStrategy <|.. WalkingStrategy
+IMovingStrategy <|.. FlyingStrategy
+
+interface IAttackStrategy
+{
+    + {abstract} void Attack();
+}
+
+class PunchStrategy
+{
+    + void Attack();
+}
+
+class MissileStrategy
+{
+    + void Attack();
+}
+
+IAttackStrategy <|.. PunchStrategy
+IAttackStrategy <|.. MissileStrategy
+
+abstract class Robot
+{
+    - string name
+    + Robot(string name)
+    + string GetName()
+    + string Attack()
+    + string Move()
+    + SetMovingStrategy(IMovingStrategy movingStrategy)
+    + SetAttackStrategy(IAttackStrategy attackStrategy)
+}
+
+Robot o-left- IMovingStrategy
+Robot o-right- IAttackStrategy
+
+class TaekwonV
+{
+    +TaekwonV(name:string)
+}
+
+class Atom
+{
+    +Atom(name:string)
+}
+
+class Sungard
+{
+    +Sungard(name:string)
+}
+
+Robot <|-- TaekwonV
+Robot <|-- Atom
+Robot <|-- Sungard
+
+@enduml

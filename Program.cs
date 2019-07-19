@@ -12,6 +12,7 @@ namespace DesignPattern
                 new Command.Client(),
                 new Observer.Client(),
                 new Decorator.Client(),
+                new Visitor.Client(),
             };
 
             tests.ForEach(test => test.Run());

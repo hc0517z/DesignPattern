@@ -63,6 +63,13 @@
     <Compile Include="Strategy\Client.cs" />
     <Compile Include="Strategy\MovingStrategy.cs" />
     <Compile Include="Strategy\Robot.cs" />
+    <Compile Include="Visitor\Cart.cs" />
+    <Compile Include="Visitor\Client.cs" />
+    <Compile Include="Visitor\Fruits.cs" />
+    <Compile Include="Visitor\IElement.cs" />
+    <Compile Include="Visitor\IVisitor.cs" />
+    <Compile Include="Visitor\Milk.cs" />
+    <Compile Include="Visitor\Shopper.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Strategy\Strategy.puml" />

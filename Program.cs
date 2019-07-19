@@ -13,6 +13,7 @@ namespace DesignPattern
                 new Observer.Client(),
                 new Decorator.Client(),
                 new Visitor.Client(),
+                new TemplateMethod.Client(),
             };
 
             tests.ForEach(test => test.Run());

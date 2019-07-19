@@ -63,6 +63,10 @@
     <Compile Include="Strategy\Client.cs" />
     <Compile Include="Strategy\MovingStrategy.cs" />
     <Compile Include="Strategy\Robot.cs" />
+    <Compile Include="TemplateMethod\AutomaticOperationCar.cs" />
+    <Compile Include="TemplateMethod\Car.cs" />
+    <Compile Include="TemplateMethod\Client.cs" />
+    <Compile Include="TemplateMethod\ManualOperationCar.cs" />
     <Compile Include="Visitor\Cart.cs" />
     <Compile Include="Visitor\Client.cs" />
     <Compile Include="Visitor\Fruits.cs" />

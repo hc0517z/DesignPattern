@@ -6,17 +6,17 @@ namespace DesignPattern.Observer
     {
         public void Run()
         {
-            ScoreRecord scoreRecord = new ScoreRecord();
-            
-            DataSheetView dataSheetView = new DataSheetView(scoreRecord, 3);
-            MinMaxView minMaxView = new MinMaxView(scoreRecord);
-            
+            var scoreRecord = new ScoreRecord();
+
+            var dataSheetView = new DataSheetView(scoreRecord, 3);
+            var minMaxView = new MinMaxView(scoreRecord);
+
             scoreRecord.Attach(dataSheetView);
             scoreRecord.Attach(minMaxView);
 
-            for (int index = 1; index <= 5 ; index++)
+            for (var index = 1; index <= 5; index++)
             {
-                int score = index * 10;
+                var score = index * 10;
                 Console.WriteLine("Adding " + score);
                 scoreRecord.AddScore(score);
             }

@@ -8,7 +8,7 @@ namespace DesignPattern.TemplateMethod
         {
             Car porter = new ManualOperationCar();
             Car bmw = new AutomaticOperationCar();
-            
+
             porter.PlayWithOwner();
             Console.WriteLine();
             bmw.PlayWithOwner();

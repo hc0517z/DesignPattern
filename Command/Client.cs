@@ -1,5 +1,3 @@
-using System;
-
 namespace DesignPattern.Command
 {
     public class Client : ITest

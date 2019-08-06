@@ -6,8 +6,8 @@ namespace DesignPattern.Factory
     {
         Tomato,
         Pepperoni
-    };
-    
+    }
+
     public class PizzaFactory
     {
         public Pizza CreatePizza(PizzaType typeToPizza)

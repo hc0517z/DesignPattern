@@ -14,7 +14,7 @@ namespace DesignPattern.TemplateMethod
         }
 
         protected abstract void Play();
-        
+
         protected abstract void RunSomething();
     }
 }

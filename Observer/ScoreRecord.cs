@@ -4,7 +4,7 @@ namespace DesignPattern.Observer
 {
     public class ScoreRecord : Subject
     {
-        private List<int> scores = new List<int>();
+        private readonly List<int> scores = new List<int>();
 
         public void AddScore(int score)
         {

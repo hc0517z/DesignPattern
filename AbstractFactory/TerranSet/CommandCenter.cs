@@ -4,6 +4,5 @@ namespace DesignPattern.AbstractFactory.TerranSet
 {
     public class CommandCenter : MainCenterBuilding
     {
-        
     }
 }

@@ -21,7 +21,7 @@ namespace DesignPattern.Factory
             return "TomatoPizza";
         }
     }
-    
+
     public class PepperoniPizza : Pizza
     {
         public override string GetName()

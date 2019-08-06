@@ -6,9 +6,9 @@ namespace DesignPattern.Factory
     {
         public void Run()
         {
-            var tomatoPizza = Pizza.Factory.CreatePizza(PizzaType.Tomato); 
+            var tomatoPizza = Pizza.Factory.CreatePizza(PizzaType.Tomato);
             Console.WriteLine(tomatoPizza.GetName());
-            var pepperoniPizza = Pizza.Factory.CreatePizza(PizzaType.Pepperoni); 
+            var pepperoniPizza = Pizza.Factory.CreatePizza(PizzaType.Pepperoni);
             Console.WriteLine(pepperoniPizza.GetName());
         }
     }

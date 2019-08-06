@@ -4,13 +4,13 @@ namespace DesignPattern.Observer
 {
     public abstract class Subject
     {
-        private List<IObserver> observers = new List<IObserver>();
+        private readonly List<IObserver> observers = new List<IObserver>();
 
         public void Attach(IObserver observer)
         {
             observers.Add(observer);
         }
-        
+
         public void Detach(IObserver observer)
         {
             observers.Remove(observer);
@@ -18,10 +18,7 @@ namespace DesignPattern.Observer
 
         protected void NotifyObservers()
         {
-            foreach (IObserver observer in observers)
-            {
-                observer.Update();
-            }
+            foreach (var observer in observers) observer.Update();
         }
     }
 }

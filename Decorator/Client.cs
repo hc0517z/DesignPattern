@@ -20,7 +20,7 @@ namespace DesignPattern.Decorator
             Console.WriteLine();
             Display roadWithLaneAndTrafficAndCrossing = new CrossingDecorator(new TrafficDecorator(new LaneDecorator(new RoadDisplay())));
             roadWithLaneAndTrafficAndCrossing.Draw();
-            
+
 //            Display road = new RoadDisplay();
 //            road.Draw();
 //            Console.WriteLine();

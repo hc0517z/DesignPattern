@@ -2,7 +2,7 @@ namespace DesignPattern.Decorator
 {
     public abstract class DisplayDecorator : Display
     {
-        private Display decoratedDisplay;
+        private readonly Display decoratedDisplay;
 
         protected DisplayDecorator(Display decoratedDisplay)
         {

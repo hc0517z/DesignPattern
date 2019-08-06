@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Threading.Tasks;
 
 namespace DesignPattern
 {
@@ -17,9 +16,9 @@ namespace DesignPattern
                 new Visitor.Client(),
                 new TemplateMethod.Client(),
                 new Factory.Client(),
-                new AbstractFactory.Client(),
+                new AbstractFactory.Client()
             };
-            
+
             tests.ForEach(delegate(ITest test)
             {
                 Console.WriteLine(new string('=', 50));

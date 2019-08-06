@@ -7,7 +7,7 @@ namespace DesignPattern.AbstractFactory.ZergSet
     {
         public override void Interact(MainCenterBuilding mainCenterBuilding)
         {
-            Console.WriteLine(this.GetType().Name + " interacts with " + mainCenterBuilding.GetType().Name);
+            Console.WriteLine(GetType().Name + " interacts with " + mainCenterBuilding.GetType().Name);
         }
     }
 }

@@ -64,6 +64,11 @@
     <Compile Include="Decorator\LaneDecorator.cs" />
     <Compile Include="Decorator\RoadDisplay.cs" />
     <Compile Include="Decorator\TrafficDecorator.cs" />
+    <Compile Include="Facade\Client.cs" />
+    <Compile Include="Facade\Gas.cs" />
+    <Compile Include="Facade\Mineral.cs" />
+    <Compile Include="Facade\UnitCreatable.cs" />
+    <Compile Include="Facade\UnitLimit.cs" />
     <Compile Include="Factory\Client.cs" />
     <Compile Include="Factory\Pizza.cs" />
     <Compile Include="Factory\PizzaFactory.cs" />

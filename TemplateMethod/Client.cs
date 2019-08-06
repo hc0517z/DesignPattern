@@ -6,9 +6,6 @@ namespace DesignPattern.TemplateMethod
     {
         public void Run()
         {
-            Console.WriteLine("\n");
-            Console.WriteLine("[ Run Template Method Pattern Test Client ]");
-            
             Car porter = new ManualOperationCar();
             Car bmw = new AutomaticOperationCar();
             

@@ -1,4 +1,6 @@
+using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace DesignPattern
 {
@@ -14,9 +16,18 @@ namespace DesignPattern
                 new Decorator.Client(),
                 new Visitor.Client(),
                 new TemplateMethod.Client(),
+                new Factory.Client(),
             };
-
-            tests.ForEach(test => test.Run());
+            
+            tests.ForEach(delegate(ITest test)
+            {
+                Console.WriteLine(new string('=', 50));
+                var testType = test.GetType().Namespace;
+                Console.WriteLine(testType + " TEST");
+                Console.WriteLine(new string('=', 50));
+                test.Run();
+                Console.WriteLine();
+            });
         }
     }
 }

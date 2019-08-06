@@ -6,9 +6,6 @@ namespace DesignPattern.Observer
     {
         public void Run()
         {
-            Console.WriteLine("\n");
-            Console.WriteLine("[ Run Observer Pattern Test Client ]");
-            
             ScoreRecord scoreRecord = new ScoreRecord();
             
             DataSheetView dataSheetView = new DataSheetView(scoreRecord, 3);

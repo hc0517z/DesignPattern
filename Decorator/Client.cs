@@ -6,9 +6,6 @@ namespace DesignPattern.Decorator
     {
         public void Run()
         {
-            Console.WriteLine("\n");
-            Console.WriteLine("[ Run Decorator Pattern Test Client ]");
-            
             Display road = new RoadDisplay();
             road.Draw();
             Console.WriteLine();

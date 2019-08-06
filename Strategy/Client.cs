@@ -6,9 +6,6 @@ namespace DesignPattern.Strategy
     {
         public void Run()
         {
-            Console.WriteLine("\n");
-            Console.WriteLine("[ Run Strategy Pattern Test Client ]");
-
             var taekwonV = new TaekwonV("TaekwonV");
             var atom = new Atom("Atom");
 

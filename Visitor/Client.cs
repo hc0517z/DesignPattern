@@ -6,9 +6,6 @@ namespace DesignPattern.Visitor
     {
         public void Run()
         {
-            Console.WriteLine("\n");
-            Console.WriteLine("[ Run Visitor Pattern Test Client ]");
-            
             Cart cart = new Cart();
             cart.AddElement(new Fruits());
             cart.AddElement(new Milk());

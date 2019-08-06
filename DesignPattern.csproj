@@ -50,6 +50,9 @@
     <Compile Include="Decorator\LaneDecorator.cs" />
     <Compile Include="Decorator\RoadDisplay.cs" />
     <Compile Include="Decorator\TrafficDecorator.cs" />
+    <Compile Include="Factory\Client.cs" />
+    <Compile Include="Factory\Pizza.cs" />
+    <Compile Include="Factory\PizzaFactory.cs" />
     <Compile Include="ITest.cs" />
     <Compile Include="Observer\Client.cs" />
     <Compile Include="Observer\DataSheetView.cs" />

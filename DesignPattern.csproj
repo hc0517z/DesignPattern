@@ -76,6 +76,10 @@
     <Compile Include="Observer\Subject.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proxy\Client.cs" />
+    <Compile Include="Proxy\ISubject.cs" />
+    <Compile Include="Proxy\Proxy.cs" />
+    <Compile Include="Proxy\RealSubject.cs" />
     <Compile Include="Strategy\AttackStrategy.cs" />
     <Compile Include="Strategy\Client.cs" />
     <Compile Include="Strategy\MovingStrategy.cs" />
@@ -93,6 +97,7 @@
     <Compile Include="Visitor\Shopper.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="README.md" />
     <Content Include="Strategy\Strategy.puml" />
     <Content Include="Strategy\StrategyExample.puml" />
   </ItemGroup>

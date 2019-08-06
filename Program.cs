@@ -17,6 +17,7 @@ namespace DesignPattern
                 new Visitor.Client(),
                 new TemplateMethod.Client(),
                 new Factory.Client(),
+                new AbstractFactory.Client(),
             };
             
             tests.ForEach(delegate(ITest test)

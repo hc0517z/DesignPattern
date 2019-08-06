@@ -38,6 +38,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFactory\BaseSet\MaincenterBuilding.cs" />
+    <Compile Include="AbstractFactory\BaseSet\PopulationBuilding.cs" />
+    <Compile Include="AbstractFactory\BaseSet\Race.cs" />
+    <Compile Include="AbstractFactory\Game.cs" />
+    <Compile Include="AbstractFactory\ProtossSet\Nexus.cs" />
+    <Compile Include="AbstractFactory\ProtossSet\Protoss.cs" />
+    <Compile Include="AbstractFactory\ProtossSet\Pylon.cs" />
+    <Compile Include="AbstractFactory\Client.cs" />
+    <Compile Include="AbstractFactory\TerranSet\CommandCenter.cs" />
+    <Compile Include="AbstractFactory\TerranSet\SupplyDepot.cs" />
+    <Compile Include="AbstractFactory\TerranSet\Terran.cs" />
+    <Compile Include="AbstractFactory\ZergSet\Hatchery.cs" />
+    <Compile Include="AbstractFactory\ZergSet\Overlord.cs" />
+    <Compile Include="AbstractFactory\ZergSet\Zerg.cs" />
     <Compile Include="Command\Alarm.cs" />
     <Compile Include="Command\Button.cs" />
     <Compile Include="Command\ICommand.cs" />

@@ -52,6 +52,15 @@
     <Compile Include="AbstractFactory\ZergSet\Hatchery.cs" />
     <Compile Include="AbstractFactory\ZergSet\Overlord.cs" />
     <Compile Include="AbstractFactory\ZergSet\Zerg.cs" />
+    <Compile Include="Adapter\Client.cs" />
+    <Compile Include="Adapter\SocketAdapter\ISocketAdapter.cs" />
+    <Compile Include="Adapter\SocketAdapter\Socket.cs" />
+    <Compile Include="Adapter\SocketAdapter\SocketClassAdapter.cs" />
+    <Compile Include="Adapter\SocketAdapter\SocketObjectAdapter.cs" />
+    <Compile Include="Adapter\SocketAdapter\Volt.cs" />
+    <Compile Include="Adapter\UnitAdapter\NewUnit.cs" />
+    <Compile Include="Adapter\UnitAdapter\OldUnit.cs" />
+    <Compile Include="Adapter\UnitAdapter\Unit.cs" />
     <Compile Include="Command\Alarm.cs" />
     <Compile Include="Command\Button.cs" />
     <Compile Include="Command\ICommand.cs" />

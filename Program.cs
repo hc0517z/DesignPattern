@@ -19,6 +19,7 @@ namespace DesignPattern
                 new AbstractFactory.Client(),
                 new Proxy.Client(),
                 new Facade.Client(),
+                new Adapter.Client(),
             };
 
             tests.ForEach(delegate(ITest test)

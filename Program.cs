@@ -20,6 +20,7 @@ namespace DesignPattern
                 new Proxy.Client(),
                 new Facade.Client(),
                 new Adapter.Client(),
+                new State.Client(),
             };
 
             tests.ForEach(delegate(ITest test)

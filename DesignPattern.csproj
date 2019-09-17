@@ -94,6 +94,12 @@
     <Compile Include="Proxy\ISubject.cs" />
     <Compile Include="Proxy\Proxy.cs" />
     <Compile Include="Proxy\RealSubject.cs" />
+    <Compile Include="State\Client.cs" />
+    <Compile Include="State\Light.cs" />
+    <Compile Include="State\IState.cs" />
+    <Compile Include="State\StateOff.cs" />
+    <Compile Include="State\StateOn.cs" />
+    <Compile Include="State\StateSleeping.cs" />
     <Compile Include="Strategy\AttackStrategy.cs" />
     <Compile Include="Strategy\Client.cs" />
     <Compile Include="Strategy\MovingStrategy.cs" />
